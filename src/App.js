@@ -27,7 +27,7 @@ function App() {
         />
         <button onClick={handleSubmit}>Add Todo</button>
       </div>
-      <h1>Todo</h1>
+      <h1>Todo List</h1>
       <div className="todos-container">
         {todos.map((todo, index) => (
           <div key={index} className="todo-item">
